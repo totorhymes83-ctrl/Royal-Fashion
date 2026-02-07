@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #faf7f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #7b1e3c, #a8325a);
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+/* Info Section */
+.info {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.info p {
+    margin: 6px 0;
+}
+
+.rating {
+    color: #f5b400;
+    font-size: 18px;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+    color: #7b1e3c;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Reviews */
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.review-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.review-card h4 {
+    margin: 0;
+    color: #7b1e3c;
+}
+
+.review-card p {
+    font-size: 14px;
+}
+
+.stars {
+    color: #f5b400;
+}
+
+/* Footer */
+footer {
+    background: #7b1e3c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* WhatsApp Button */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25d366;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.whatsapp:hover {
+    background: #1ebe5d;
+}
